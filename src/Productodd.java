@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Productodd {
+    public static void main(String[] args) {
+        int product = 1;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your number:");
+        int n = sc.nextInt();
+        for (int i = 2; i <= n - 2; i++) {
+            if (i % 2 != 0) {
+                product = product * i;
+            }
+        }
+        System.out.println(product);
+    }
+}
