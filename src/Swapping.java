@@ -1,3 +1,4 @@
+package Day_6;
 public class Swapping {
     public static void main(String[] args){
         int a=2;

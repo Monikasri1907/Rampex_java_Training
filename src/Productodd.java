@@ -1,3 +1,4 @@
+package Day_6;
 import java.util.Scanner;
 public class Productodd {
     public static void main(String[] args) {
