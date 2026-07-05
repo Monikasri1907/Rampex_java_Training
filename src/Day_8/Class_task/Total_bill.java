@@ -2,9 +2,9 @@ package Day_8.Class_task;
 import java.util.Scanner;
 public class Total_bill {
     public static void main(String[] args){
-        int total;
         String[] drinks={"Sprite","Pepsi","Campa","Maza"};
         int[] prices={40,40,10,45};
+        int total=0;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the name of the drinks:");
         String name=sc.nextLine();
@@ -12,9 +12,11 @@ public class Total_bill {
         int quantity=sc.nextInt();
         for(int i=0;i<drinks.length;i++){
             if(name.equals(drinks[i])){
-                System.out.println(prices[i]* quantity);
+             total= prices[i]* quantity;
             }
         }
+        System.out.println(total);
+
 
     }
 }
