@@ -28,8 +28,11 @@ class Drink {
 
     public void drinkDetails() {
         Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the name of the drink:");
-            String name = sc.nextLine();
+        System.out.println("Enter the name of the drink:");
+        String name = sc.nextLine();
+        if (name.equalsIgnoreCase("exit")) {
+            System.out.println("Thank you");
+        } else {
             System.out.println("Enter the quantity:");
             int qty = sc.nextInt();
 
@@ -49,15 +52,13 @@ class Drink {
                         System.out.println("-------------------------------");
                         System.out.println("Total amount is" + grandtotal);
                         System.out.println("-------------------------------");
-                        if(name.equalsIgnoreCase("exit")){
-                            System.out.println("Thank you");
-                        }
-                    }
 
                     }
+
                 }
             }
-
+        }
+    }
         }
 
 

@@ -1,3 +1,5 @@
+package Day_13.Class_task;
+
 public class Error {
     public static void main(String[] args){
         int a=10;

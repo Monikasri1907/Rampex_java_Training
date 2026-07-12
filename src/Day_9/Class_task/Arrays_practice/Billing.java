@@ -14,7 +14,7 @@ public class Billing {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the name of the drinks:");
             String name = sc.nextLine();
-            if (name.equals("exit")) {
+            if (name.equals("0")) {
                 System.out.println("Thank you");
                 break;
             }

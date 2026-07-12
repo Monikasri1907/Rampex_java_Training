@@ -1,4 +1,4 @@
-package Day_13;
+package Day_13.Class_task;
 
 public class Frequency {
     public static void main(String[] args) {
